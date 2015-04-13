@@ -1,9 +1,9 @@
 {
-  "name": "spongedocs-theme",
+  "name": "histatheme",
   "version": "0.0.1",
-  "description": "The theme for the sponge documentation",
-  "private": true,
-  "author": "gratimax",
+  "description": "The theme for the Histacom documentation",
+  "private": false,
+  "author": "gratimax, jamierocks",
   "license": "MIT",
   "dependencies": {
     "gulp-util": "^3.0.3",

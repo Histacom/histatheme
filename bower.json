@@ -1,12 +1,13 @@
 {
-  "name": "spongedocs-theme",
+  "name": "histatheme",
   "version": "0.0.1",
-  "homepage": "https://github.com/gratimax/spongedocs-theme",
-  "private": true,
+  "homepage": "https://github.com/Histacom/histatheme",
+  "private": false,
   "authors": [
-    "gratimax"
+    "gratimax",
+    "jamierocks"
   ],
-  "description": "The theme for the sponge documentation",
+  "description": "The theme for the Histacom documentation",
   "license": "MIT",
   "ignore": [
     "**/.*",

@@ -1,5 +1,5 @@
-# spongedocs-theme
-The new, and improved, sponge documentation theme.
+# histatheme
+The new, and improved, Histacom documentation theme. Based on SpongePowered/sponge_docs_theme
 More coming soon.
 
 # Development

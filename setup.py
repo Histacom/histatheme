@@ -1,12 +1,12 @@
 from distutils.core import setup
 
 setup(
-    name='sponge_docs_theme',
+    name='histatheme',
     version='0.0.1',
-    packages=['sponge_docs_theme'],
-    url='',
-    license='',
-    author='max',
-    author_email='',
-    description='The sponge documentation theme'
+    packages=['histatheme'],
+    url='https://github.com/Histacom/histatheme',
+    license='MIT',
+    author='jamierocks',
+    author_email='malgm@lapis.blue',
+    description='The Histacom documentation theme'
 )

@@ -59,7 +59,7 @@ gulp.task('static', function () {
 gulp.task('styl', function () {
   return gulp.src('./src/styl/index.styl')
     .pipe(styl())
-    .pipe(rename('sponge.css'))
+    .pipe(rename('histacom.css'))
     .pipe(minifyCSS())
     .pipe(gulp.dest('./build/static/'));
 });
@@ -79,10 +79,10 @@ gulp.task('py', function () {
     .pipe(gulp.dest('./build/'));
 });
 
-// Distributes into sponge_docs_theme
+// Distributes into histatheme
 gulp.task('dist', function () {
   return gulp.src('./build/**/*')
-    .pipe(gulp.dest('./sponge_docs_theme'));
+    .pipe(gulp.dest('./histatheme'));
 });
 
 // Performs build
@@ -102,7 +102,7 @@ gulp.task('styl-dev', function () {
     .pipe(styl())
     .on('error', handleError)
     .pipe(sourcemaps.write())
-    .pipe(rename('sponge.css'))
+    .pipe(rename('histacom.css'))
     .pipe(gulp.dest('./build/static/'));
 });
 
